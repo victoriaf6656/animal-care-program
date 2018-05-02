@@ -8,7 +8,8 @@ Contact
 Responses
 Menu Glyphicon
 About
-This program is about caring for animals, where you will spend time volunteering in different animal centers taking care of the animals. Animals centers may include Farms, Zoos, Vet hospitals, and others. 
+This program is about caring for animals, where you will spend time volunteering in different animal centers 
+taking care of the animals. Animals centers may include Farms, Zoos, Vet hospitals, and others. 
 Volunteer Work: 3 hours
 Benefits:
 Beneficial for Completing and Submitting forms of Volunteer Work
