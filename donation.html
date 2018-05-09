@@ -17,42 +17,80 @@
     <script src="script.js"></script>
 </head>
 <!-- Main part of Scrollspy Plugin -->
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">ACP</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="index.html">Rewards</a></li>
-                <li><a href="index.html">Responses</a></li>
-                <li><a href="index.html">Contact</a></li>
-                <!-- Dropdown Menu -->
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#help">How to Help
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">ACP</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Rewards</a></li>
+                    <li><a href="index.html">Responses</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <!-- Dropdown Menu -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#help">How to Help
         <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="volunteer.html">Volunteer</a></li>
-                        <li><a href="donation.html">Donation</a></li>
-                        <li><a href="adoption.html">Adoption/Foster</a></li>
-                    </ul>
-                </li>
-            </ul>
-    </nav>
-    <!-- Homepage -->
-    <div id="acp">
-        <h1>Come aboard to help these Helpless Animals!</h1>
-    </div>
-    <!-- Donation Section -->
-    <div id="donation">
-        
-    </div>
-</body>
+                        <ul class="dropdown-menu">
+                            <li><a href="volunteer.html">Volunteer</a></li>
+                            <li><a href="donation.html">Donation</a></li>
+                            <li><a href="adoption.html">Adoption/Foster</a></li>
+                        </ul>
+                    </li>
+                </ul>
+        </nav>
+        <!-- Homepage -->
+        <div id="acp">
+            <h1>Come aboard to help these Helpless Animals!</h1>
+        </div>
+        <!-- Donation Section -->
+        <div id="donation">
+            <!-- Sign Up (Collapsible) -->
+            <div class="container">
+                <h2>Sign up for Donation</h2>
+                <p>Click on the button below to sign up for Donation</p>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Sign Up</button>
+                <div id="demo" class="collapse">
+                    <form>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="name" type="text" class="form-control" name="name" placeholder="First Last" required>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-usd"></i></span>
+                            <input id="money" type="text" class="form-control" name="money" placeholder="How much you donate?" required>
+                        </div>
+                        <!-- Credit Card Donation -->
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-credit-card"></i></span>
+                            <input id="card" type="password" class="form-control" name="card" style="width:300px" placeholder="16 digits" required>
+                        </div>
+                        <p>Security Code</p>
+                        <input id="security" type="password" class="form-control" name="security" placeholder="4 digits at the end" style="width:200px" required>
+                        <p>Name on Card</p>
+                        <input type="text" class="form-control" style="width:200px" required>
+                        <p>Expiration Date</p>
+                        <input type="date" class="form-control" style="width:200px;" required>
+                        <h1 style="color:teal;">Thank you for Donating!</h1>
+                        <button><input type="submit"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="container-fluid text-center">
+            <p>Posted by Victoria Feng</p>
+            <p>Contact Information: <a href="victoriaf6656@hstat.org">victoriaf6656@hstat.org</a></p>
+            <h3>Copyright</h3>
+        </footer>
+    </body>

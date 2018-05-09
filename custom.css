@@ -40,11 +40,15 @@ h1 {
     background-color:grey;
 }
 #volunteer {
-    background-color:#6495ED;
+    background-color:#87CEFA;
     padding-bottom:10px;
 }
 #adoption {
     background-color:lightblue;
+    padding-bottom:10px;
+}
+#donation {
+    background-color:#F0F8FF;
     padding-bottom:10px;
 }
 .col-sm-4 {
@@ -56,4 +60,19 @@ h1 {
 footer {
     color:white;
     background-color:black;
+}
+.center {
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+/*medium screen*/
+@media only screen and (min-width:767px) {
+
+}
+/*wide screen*/
+@media only screen and (min-width:900px) {
+}
+/*small screen*/
+@media only screen and (min-width:400px) {
 }
