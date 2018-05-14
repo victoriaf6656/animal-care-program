@@ -9,6 +9,7 @@
     margin-top:10px;
     padding-top:100px;
     padding-bottom: 100px;
+    font-family:Impact;
 }
 body {
     background-color:lavender;
@@ -63,6 +64,8 @@ h1 {
 footer {
     color:white;
     background-color:black;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 .center {
     margin-left:auto;
